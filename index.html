@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="col-md-4 mx-auto w-100 bg-dark bg-opacity-25 border border-white rounded p-2" style="max-width:405px; margin-top: 300px;">
+    <input id="h" type="text" placeholder="calculator" class=" w-100 fs-3 text-end bg-white border-0 rounded " readonly>
+<div class="row mt-3 g-2 row-cols-4">
+    <div class="col">
+        <button onclick="op('%')" class="btn w-100 bg-white ">%</button>
+    </div>
+    
+    <div class="col-md-6">
+        <button onclick="clr()" class="btn w-100 bg-white">AC</button>
+    </div>
+    <div class="col">
+        <button onclick="op('/')" class="btn w-100 bg-white">&divide;</button>
+    </div>
+   <div class="col">
+        <button onclick="num('7')" class="btn w-100 bg-white">7</button>
+    </div>
+    <div class="col">
+        <button onclick="num('8')" class="btn w-100 bg-white">8</button>
+    </div>
+    <div class="col">
+        <button onclick="num('9')" class="btn w-100 bg-white">9</button>
+    </div>
+    <div class="col">
+        <button onclick="op('+')" class="btn w-100 bg-white">+</button>
+    </div>
+    
+    <div class="col">
+        <button onclick="num('4')" class="btn w-100 bg-white">4</button>
+    </div>
+    
+    <div class="col">
+        <button onclick="num('5')" class="btn w-100 bg-white">5</button>
+    </div>
+    <div class="col">
+        <button onclick="num('6')" class="btn w-100 bg-white">6</button>
+    </div>
+    
+    <div class="col">
+        <button onclick="op('-')" class="btn w-100 bg-white">-</button>
+    </div>
+    <div class="col">
+        <button onclick="num('1')" class="btn w-100 bg-white">1</button>
+    </div>
+    <div class="col">
+        <button onclick="num('2')"  class="btn w-100 bg-white">2</button>
+    </div>
+    
+    <div class="col">
+        <button onclick="num('3')" class="btn w-100 bg-white">3</button>
+    </div>
+    
+    <div class=" col">
+        <button  onclick="op('x')" class="btn w-100 bg-white">&times;</button>
+    </div>
+    <div class="col">
+        <button  onclick="num('.')" class="btn w-100 bg-white">.</button>
+    </div>
+    <div class="col">
+        <button  onclick="num('0')" class="btn w-100 bg-white">0</button>
+    </div>
+    <div class="col-6">
+        <button  onclick="eql()" class="btn w-100 bg-white" >=</button>
+    </div>
+    
+    
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
